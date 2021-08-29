@@ -3,5 +3,4 @@
 
 ## 相关文章
 
-1. [如何使用 antd + react 开发 chrome extension](https://zhuanlan.zhihu.com/p/393004855)
-2. [如何实现 chrome extension 的热更新](https://zhuanlan.zhihu.com/p/399937088)
+1. [如何使用 ESLint 来规范 JS 和 TS 代码](https://zhuanlan.zhihu.com/p/404677113)
