@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
     return merge(commonWebpackConfig, {
         mode: 'production',
         output: {
-            publicPath: `/${packageInfo.name}`
+            publicPath: `/${packageInfo.name}/`
         },
         optimization: {
             splitChunks: {

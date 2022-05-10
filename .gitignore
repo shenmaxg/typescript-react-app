@@ -11,5 +11,7 @@ temp/
 wrap-ansi/
 .vscode/
 .iml
+.DS_Store
+*/DS_Store
 dist/*
 
