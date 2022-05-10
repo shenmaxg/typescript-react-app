@@ -7,6 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js --ENV=dev",
     "build": "webpack --config config/webpack.pro.config.js --ENV=pro",
+    "analyzer": "webpack --config config/webpack.analyzer.config.js --ENV=pro",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "check:ts": "tsc --noEmit --pretty",
     "check:ts:watch": "npm run check:ts -- --watch"
@@ -48,6 +49,7 @@
     "typescript": "^4.3.5",
     "url-loader": "^4.1.1",
     "webpack": "^4.42.1",
+    "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2",
     "webpack-inject-plugin": "^1.5.5",
